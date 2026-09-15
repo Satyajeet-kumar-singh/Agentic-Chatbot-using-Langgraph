@@ -1,7 +1,6 @@
 from langgraph.graph import StateGraph,START,END
 from typing import TypedDict,Annotated
 from langchain_core.messages import BaseMessage,HumanMessage,SystemMessage
-from langchain_mistralai import ChatMistralAI
 from dotenv import load_dotenv
 from langgraph.checkpoint.sqlite import SqliteSaver
 from langgraph.graph.message import add_messages
